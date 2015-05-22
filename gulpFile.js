@@ -10,13 +10,15 @@ var paths = {
   root: './client',
   html: './client/**/*.html',
   scripts: './client/app/**/*.js',
-  styles: './client/app/**/*.css'
+  styles: './client/app/**/*.css',
+  serverSpec: './server/*.spec.js'
 }
 
 gulp.task('default', $.sequence('inject', 'server', 'watch'));
 gulp.task('server', startServer);
 gulp.task('watch', startWatch);
-gulp.task('inject', startInject)
+gulp.task('inject', startInject);
+gulp.task('mocha', mocha);
 
 function startServer(){
   require('./server');
@@ -37,6 +39,12 @@ function startInject(){
     .pipe( $.inject( scripts,  {relative:true}) )
     .pipe( $.inject( styles,  {relative:true}) )
     .pipe( gulp.dest( paths.root ) );
+}
+
+function mocha() {
+  var src = gulp.src(paths.serverSpec, { read: false });
+  return src
+    .pipe($.mocha({ reporter: 'spec' }));
 }
 
 })();
