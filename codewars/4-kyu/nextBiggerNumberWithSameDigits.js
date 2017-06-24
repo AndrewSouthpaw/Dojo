@@ -30,6 +30,9 @@ function permutations(letters) {
   // Tracks the next largest number (compared to input) found, for curtailing searches on unnecessary paths
   let nextLargest = null
 
+  // Bail early for edge case where number is all the same number
+  if (letters.split('').sort().join('') === letters.split('').sort((a, b) => a < b).join('')) return []
+
   const recurse = (rest, acc) => {
     if (!rest.length) {
       memo[acc] = true

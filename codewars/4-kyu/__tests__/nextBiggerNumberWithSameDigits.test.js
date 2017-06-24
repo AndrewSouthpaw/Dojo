@@ -6,8 +6,9 @@ it('should do something', function() {
 });
 
 it('should handle larger numbers', function() {
+  expect(nextBigger(99999999999999)).to.eql(-1)
   expect(nextBigger(1234567811112)).to.eql(1234567811121)
-  expect(nextBigger(59884848459853)).to.eql()
+  expect(nextBigger(59884848459853)).to.eql(59884848483559)
 });
 
 it('should return -1 otherwise', function() {
