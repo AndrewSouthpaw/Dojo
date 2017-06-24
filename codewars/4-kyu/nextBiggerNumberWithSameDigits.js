@@ -22,15 +22,39 @@ function nextBigger(number) {
 }
 
 function permutations(letters) {
-  const recurse = (rest, acc, memo) => {
+  let counts = 0
+
+  // Tracks unique permutations to avoid duplication
+  const memo = {}
+
+  // Tracks the next largest number (compared to input) found, for curtailing searches on unnecessary paths
+  let nextLargest = null
+
+  const recurse = (rest, acc) => {
     if (!rest.length) {
       memo[acc] = true
-      return memo
+      const accNumber = parseInt(acc)
+
+      // Update the next largest number when larger than input and less than current next largest number
+      if (accNumber > parseInt(letters) && (nextLargest === null || acc < nextLargest))
+        nextLargest = accNumber
     }
-    rest.reduce((combos, letter, i) => {
-      return combos.concat(recurse(rest.slice(0, i).concat(rest.slice(i + 1)), acc + letter, memo))
-    }, [])
-    return memo
+
+    // curtail search when the substring is less than the number (no sense in walking that path)
+    if (parseInt(acc) < parseInt(letters.slice(0, acc.length))) {
+      return
+    }
+
+    // curtail search when substring is larger than the currently accumulated next largest number
+    if (nextLargest !== null && (parseInt(acc) > parseInt(nextLargest.toString().slice(0, acc.length)))) {
+      return
+    }
+
+    rest.forEach((letter, i) => {
+      recurse(rest.slice(0, i).concat(rest.slice(i + 1)), acc + letter)
+    })
   }
-  return Object.keys(recurse(letters.split(''), '', {}))
+
+  recurse(letters.split(''), '')
+  return Object.keys(memo)
 }
