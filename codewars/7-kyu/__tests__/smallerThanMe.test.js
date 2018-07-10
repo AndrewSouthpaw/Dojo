@@ -1,3 +1,5 @@
+import { smaller } from '../smallerThanMe'
+
 describe('smaller', () => {
   it('should work', () => {
     expect(smaller([5, 4, 3, 2, 1])).toEqual([4, 3, 2, 1, 0])

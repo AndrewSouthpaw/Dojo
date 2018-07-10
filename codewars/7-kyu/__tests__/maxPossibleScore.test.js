@@ -1,3 +1,5 @@
+import { maxPossibleScore } from '../maxPossibleScore'
+
 describe('#maxPossibleScore', () => {
   it('should work', () => {
     expect(maxPossibleScore({'a': 1, 'b': 2, 'c': 3}, ['a', 'c'])).toEqual(10)

@@ -12,7 +12,7 @@ new are worth double points.
 You can assume that all questions are unique. Questions are case sensitive.
  */
 
-function maxPossibleScore(questions, newQuestions) {
+export const maxPossibleScore = (questions, newQuestions) => {
   const questionValues = newQuestions.reduce((acc, q) => {
     if (acc[q]) acc[q] *= 2
     return acc

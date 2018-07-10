@@ -16,6 +16,6 @@ Performance is not a concern in this kata.
 
  */
 
-function smaller(arr) {
+export const smaller = (arr) => {
   return arr.map((n, i) => arr.slice(i + 1).reduce((acc, x) => x < n ? acc + 1 : acc, 0))
 }
