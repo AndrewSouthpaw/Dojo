@@ -1,7 +1,7 @@
 describe('#permutations', () => {
   it('should work', () => {
-    expect(permutations('a')).to.eql(['a'])
-    expect(permutations('ab')).to.eql(['ab', 'ba'])
+    expect(permutations('a')).toEqual(['a'])
+    expect(permutations('ab')).toEqual(['ab', 'ba'])
   })
 
   it('should remove duplicates', () => {

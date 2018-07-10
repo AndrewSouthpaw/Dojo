@@ -12,8 +12,8 @@ describe('Event', () => {
     const event = new Event()
     event.subscribe(f)
     event.emit(1, 'foo', [1, 2, 3])
-    expect(f.calls).to.eql(1)
-    expect(f.args).to.eql([1, 'foo', [1, 2, 3]])
+    expect(f.calls).toEqual(1)
+    expect(f.args).toEqual([1, 'foo', [1, 2, 3]])
   });
 
   it('should unsubscribe a function', () => {
@@ -22,7 +22,7 @@ describe('Event', () => {
     event.emit()
     event.unsubscribe(f)
     event.emit()
-    expect(f.calls).to.eql(1)
+    expect(f.calls).toEqual(1)
   });
 
   it('handles multiple subscriptions', () => {
@@ -34,13 +34,13 @@ describe('Event', () => {
     event.subscribe(f)
     event.subscribe(g)
     event.emit(1, 'foo', [1, 2, 3])
-    expect(f.calls).to.eql(1)
-    expect(f.args).to.eql([1, 'foo', [1, 2, 3]])
-    expect(g.calls).to.eql(1)
-    expect(g.args).to.eql([1, 'foo', [1, 2, 3]])
+    expect(f.calls).toEqual(1)
+    expect(f.args).toEqual([1, 'foo', [1, 2, 3]])
+    expect(g.calls).toEqual(1)
+    expect(g.args).toEqual([1, 'foo', [1, 2, 3]])
     event.unsubscribe(g)
     event.emit(2)
-    expect(f.calls).to.eql(2)
-    expect(g.calls).to.eql(1)
+    expect(f.calls).toEqual(2)
+    expect(g.calls).toEqual(1)
   });
 });
