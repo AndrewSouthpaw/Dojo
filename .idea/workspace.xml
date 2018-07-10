@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b58062-4168-45c6-82c1-df3030958582" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,16 +23,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advancedEvents.test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="advancedEvents.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advancedEvents.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="advancedEvents.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -61,6 +58,14 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.to.eql</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.toEqual</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -68,9 +73,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js" />
+        <option value="$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js" />
       </list>
     </option>
   </component>
@@ -163,12 +168,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531232751131</updated>
-      <workItem from="1531232752399" duration="613000" />
+      <workItem from="1531232752399" duration="841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="613000" />
+    <option name="totallyTimeSpent" value="841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="0" />
@@ -179,6 +184,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Floobits" />
@@ -186,7 +192,6 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -235,17 +240,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>

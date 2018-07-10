@@ -23,7 +23,7 @@ subscribe, unsubscribe and emit are the only public properties that are allowed 
 
  */
 
-function Event() {
+export function Event() {
   let _store = []
 
   this.subscribe = (...fns) => {
