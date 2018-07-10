@@ -13,7 +13,7 @@ The order of the permutations doesn't matter.
 
  */
 
-function permutations(str) {
+export const permutations = (str) => {
   const result = {}
 
   const recurse = (acc, rest) => {

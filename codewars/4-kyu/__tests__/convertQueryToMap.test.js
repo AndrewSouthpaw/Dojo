@@ -1,3 +1,5 @@
+import { convertQueryToMap, deepAssign, extractQueryParametersToTuples } from '../convertQueryToMap'
+
 describe('#convertQueryToMap', () => {
   it('should work', () => {
     const query = 'user.name.firstname=Bob&user.name.lastname=Smith&user.favoritecolor=Light%20Blue'

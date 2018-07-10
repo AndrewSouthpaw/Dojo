@@ -35,7 +35,7 @@ const URI_DECODER = {
   '%3F': '?',
 }
 
-function extractQueryParametersToTuples(query) {
+export const extractQueryParametersToTuples = (query) => {
   if (query === '') return []
   return query.split('&').map(q => {
     const tuple = q.split('=')
@@ -43,16 +43,14 @@ function extractQueryParametersToTuples(query) {
     let match = null
     let bail = 0
     while (match = decodedWord.match(/(%..)/) && bail < 100) {
-      console.log(RegExp.$1);
       decodedWord = decodedWord.replace(/(%..)/, URI_DECODER[RegExp.$1])
-      console.log(decodedWord);
       bail++
     }
     return [tuple[0], decodedWord]
   })
 }
 
-function deepAssign(obj, path, value) {
+export const deepAssign = (obj, path, value) => {
   const result = Object.assign({}, obj)
   const keys = path.split('.')
   const lastKey = key => key === keys[keys.length - 1]
@@ -64,7 +62,7 @@ function deepAssign(obj, path, value) {
   return result
 }
 
-function convertQueryToMap(query) {
+export const convertQueryToMap = (query) => {
   return extractQueryParametersToTuples(query)
       .reduce((acc, tuple) => deepAssign(acc, tuple[0], tuple[1]), {})
 }

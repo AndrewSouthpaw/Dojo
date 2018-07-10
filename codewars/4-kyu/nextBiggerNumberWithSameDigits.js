@@ -15,7 +15,7 @@
 
  */
 
-function nextBigger(number) {
+export const nextBigger = (number) => {
   const orderedPermutations = permutations(number.toString()).map(x => parseInt(x)).sort()
   const nextLargest = orderedPermutations.filter(x => x >= number)[1]
   return nextLargest === undefined ? -1 : nextLargest

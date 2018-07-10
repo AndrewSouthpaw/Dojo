@@ -1,3 +1,5 @@
+import { permutations } from '../permutations'
+
 describe('#permutations', () => {
   it('should work', () => {
     expect(permutations('a')).toEqual(['a'])
@@ -5,6 +7,6 @@ describe('#permutations', () => {
   })
 
   it('should remove duplicates', () => {
-    expect(permutations('aabb')).to.have.members(['aabb', 'abab', 'abba', 'baab', 'baba', 'bbaa'])
+    expect(permutations('aabb')).toEqual(expect.arrayContaining(['aabb', 'abab', 'abba', 'baab', 'baba', 'bbaa']))
   })
 })

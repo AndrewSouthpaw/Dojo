@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b58062-4168-45c6-82c1-df3030958582" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/4-kyu/__tests__/convertQueryToMap.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/4-kyu/__tests__/convertQueryToMap.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/4-kyu/__tests__/nextBiggerNumberWithSameDigits.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/4-kyu/__tests__/nextBiggerNumberWithSameDigits.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/4-kyu/__tests__/permutations.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/4-kyu/__tests__/permutations.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/4-kyu/convertQueryToMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/4-kyu/convertQueryToMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/4-kyu/nextBiggerNumberWithSameDigits.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/4-kyu/nextBiggerNumberWithSameDigits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewars/4-kyu/permutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/codewars/4-kyu/permutations.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advancedEvents.test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="advancedEvents.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -36,24 +40,69 @@
         <entry file="file://$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="convertQueryToMap.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/convertQueryToMap.test.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convertQueryToMap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codewars/4-kyu/convertQueryToMap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="nextBiggerNumberWithSameDigits.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/nextBiggerNumberWithSameDigits.test.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="permutations.test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nextBiggerNumberWithSameDigits.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codewars/4-kyu/nextBiggerNumberWithSameDigits.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permutations.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/permutations.test.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permutations.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codewars/4-kyu/permutations.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -61,6 +110,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.to.eql</find>
+      <find>consoloe</find>
     </findStrings>
     <replaceStrings>
       <replace>.toEqual</replace>
@@ -74,8 +124,14 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js" />
         <option value="$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js" />
+        <option value="$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js" />
+        <option value="$PROJECT_DIR$/codewars/4-kyu/__tests__/convertQueryToMap.test.js" />
+        <option value="$PROJECT_DIR$/codewars/4-kyu/convertQueryToMap.js" />
+        <option value="$PROJECT_DIR$/codewars/4-kyu/nextBiggerNumberWithSameDigits.js" />
+        <option value="$PROJECT_DIR$/codewars/4-kyu/__tests__/nextBiggerNumberWithSameDigits.test.js" />
+        <option value="$PROJECT_DIR$/codewars/4-kyu/permutations.js" />
+        <option value="$PROJECT_DIR$/codewars/4-kyu/__tests__/permutations.test.js" />
       </list>
     </option>
   </component>
@@ -168,12 +224,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531232751131</updated>
-      <workItem from="1531232752399" duration="841000" />
+      <workItem from="1531232752399" duration="1094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="841000" />
+    <option name="totallyTimeSpent" value="1094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1626" height="1027" extended-state="0" />
@@ -217,15 +273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/convertQueryToMap.test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/nextBiggerNumberWithSameDigits.test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/permutations.test.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -240,17 +287,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js">
+    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/advancedEvents.test.js">
+    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/advancedEvents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/convertQueryToMap.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/convertQueryToMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/nextBiggerNumberWithSameDigits.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/nextBiggerNumberWithSameDigits.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/permutations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codewars/4-kyu/__tests__/permutations.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
         </state>
       </provider>
     </entry>

@@ -1,3 +1,5 @@
+import { nextBigger } from '../nextBiggerNumberWithSameDigits'
+
 it('should do something', function() {
   expect(nextBigger(12)).toEqual(21)
   expect(nextBigger(513)).toEqual(531)
