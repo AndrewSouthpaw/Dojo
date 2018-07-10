@@ -18,7 +18,7 @@
   Also see an example test fixture for suggested usage
  */
 
-class Event {
+export class Event {
   constructor() {
     this._store = []
   }

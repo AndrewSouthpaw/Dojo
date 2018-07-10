@@ -1,3 +1,5 @@
+import { Event } from '../simpleEvents'
+
 describe('Event', () => {
   function f() {
     f.calls = (f.calls || 0) + 1

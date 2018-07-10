@@ -1,3 +1,5 @@
+import { rgb } from '../rgb'
+
 describe('#rgb', () => {
   it('should work', () => {
     expect(rgb(255, 255, 255)).toEqual('FFFFFF')

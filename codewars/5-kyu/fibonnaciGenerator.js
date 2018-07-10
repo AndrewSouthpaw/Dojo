@@ -14,7 +14,7 @@ fib(); // -> returns 2
 
  */
 
-function genfib() {
+export const genfib = () => {
   let x = 1
   let y = 0
   return () => {

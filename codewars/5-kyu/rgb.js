@@ -8,7 +8,7 @@ of that range should be rounded to the closest valid value.
 
  */
 
-function rgb(r, g, b) {
+export const rgb = (r, g, b) => {
   const toHexDigit = {
     0: '0',
     1: '1',

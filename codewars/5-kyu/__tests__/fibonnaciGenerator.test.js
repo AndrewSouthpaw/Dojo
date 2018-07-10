@@ -1,3 +1,5 @@
+import { genfib } from '../fibonnaciGenerator'
+
 describe('genfib', () => {
   it('should work', () => {
     const fib = genfib()
