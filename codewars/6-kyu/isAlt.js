@@ -13,7 +13,7 @@ Arguments consist of only lowercase letters.
 
  */
 
-function isAlt(str) {
+export const isAlt = (str) => {
   /**
    * Regexp breakdown:
    * 1. Ensure we capture the entire word, bookend with ^ and *

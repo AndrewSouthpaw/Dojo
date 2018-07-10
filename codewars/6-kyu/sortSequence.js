@@ -20,7 +20,7 @@ The result is the sorted number sequence.
 If some sub sequences have the same sum value, sort them according to their original order.
  */
 
-function splitSequences(arr) {
+export const splitSequences = (arr) => {
   const result = []
   let acc = []
   arr.forEach((n) => {
@@ -35,11 +35,11 @@ function splitSequences(arr) {
   return result
 }
 
-function sum(arr) {
+export const sum = (arr) => {
   return arr.reduce((acc, n) => acc + n)
 }
 
-function sortSequence(arr) {
+export const sortSequence = (arr) => {
   return splitSequences(arr)
     .map(a => a.slice(0, a.length - 1).sort((a, b) => a - b).concat(0))
     .sort((a, b) => sum(a) - sum(b))

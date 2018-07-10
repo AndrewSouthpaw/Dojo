@@ -1,3 +1,5 @@
+import { isAlt } from '../isAlt'
+
 describe('#isAlt', () => {
   it('should work', () => {
     expect(isAlt('amazona')).toEqual(true)

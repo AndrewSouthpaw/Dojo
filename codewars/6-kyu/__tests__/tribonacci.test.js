@@ -1,3 +1,5 @@
+import { tribonacci } from '../tribonacci'
+
 describe('#tribonacci', () => {
   it('should work with basic signature', () => {
     expect(tribonacci([1, 1, 1], 10)).toEqual([1, 1, 1, 3, 5, 9, 17, 31, 57, 105])

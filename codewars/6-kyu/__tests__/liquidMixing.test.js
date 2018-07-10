@@ -1,3 +1,5 @@
+import { arrayMedian, liquidMixing } from '../liquidMixing'
+
 describe('#liquidMixing', () => {
   it('should get middle density for odd number in barrel', () => {
     expect(liquidMixing([10, 20, 8, 12, 6])).toEqual([10, 15, 10, 11, 10])

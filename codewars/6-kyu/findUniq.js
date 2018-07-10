@@ -6,7 +6,7 @@
  It’s guaranteed that array contains more than 3 numbers.
  */
 
-function findUniq(arr) {
+export const findUniq = (arr) => {
   const frequency = arr.reduce((acc, n) => {
     acc[n] = acc[n] + 1 || 1
     return acc
@@ -18,7 +18,7 @@ function findUniq(arr) {
  * Simpler version, which I quite liked and saw in the solutions. They didn't do it
  * immutably though, so I added that.
  */
-function findUniqWithSorting(arr) {
+export const findUniqWithSorting = (arr) => {
   const sorted = arr.slice().sort()
   return sorted[0] === sorted[1] ? sorted.pop() : sorted[0]
 }

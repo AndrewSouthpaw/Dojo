@@ -23,7 +23,7 @@ Signature will always contain 3 numbers; n will always be a non-negative number;
 and be ready for anything else which is not clearly specified ;)
  */
 
-function tribonacci(signature, n) {
+export const tribonacci = (signature, n) => {
   const result = signature.slice(0, n)
   while (result.length < n) {
     const length = result.length

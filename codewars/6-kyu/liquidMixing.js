@@ -46,7 +46,7 @@ A table that shows how the liquids are added is given below:
 +--------------+----------------+----------------+
  */
 
-function liquidMixing(densities) {
+export const liquidMixing = (densities) => {
   const result = []
   const barrel = []
   densities.forEach((density) => {
@@ -57,7 +57,7 @@ function liquidMixing(densities) {
   return result
 }
 
-function arrayMedian(arr) {
+export const arrayMedian = (arr) => {
   const isEven = arr.length % 2 === 0
   const midpoint = Math.floor(arr.length / 2)
   return isEven ? (arr[midpoint - 1] + arr[midpoint]) / 2 : arr[midpoint]

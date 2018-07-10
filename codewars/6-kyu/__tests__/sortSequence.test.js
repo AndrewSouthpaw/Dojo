@@ -1,3 +1,5 @@
+import { sortSequence, splitSequences } from '../sortSequence'
+
 describe('#splitSequences', () => {
   it('should work', () => {
     expect(splitSequences([1, 2, 3, 0, 1, 0])).toEqual([[1, 2, 3, 0], [1, 0]])

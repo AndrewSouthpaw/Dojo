@@ -1,3 +1,5 @@
+import { findUniq } from '../findUniq'
+
 describe('#findUniq', () => {
   it('should work', () => {
     expect(findUniq([ 1, 1, 1, 2, 1, 1 ])).toEqual(2)
